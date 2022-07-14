@@ -27,8 +27,3 @@ For EX the model can predict with %95 accuracy while for MI the model can predci
 To visuallise the learning rate the cost function is printed for each itterations.
 Since the data is not large enough for the model learning rate slows down drastically after a while.
 
-
-
-
-What How and Results
-
