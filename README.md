@@ -11,12 +11,14 @@ Ironically only after I build and run the model did the big picture become more 
 ### How
 Data gathered was initially a single CSV file which is why the first quest is to convert the data into the appropriate form.
 
-1-Data cleaning and converting Unuseful data columns are filtered out with the **pandas libary**.
+1-Data cleaning and converting 
+Unuseful data columns are filtered out with the **pandas libary**.
 Data columns that contain strings are converted to numbers with  **skitlearn preprocess function** tthen each value is divided into the largest value in order to appropriately use * *sigmoid function* * both in form of **numpy arrays**.
 
 The dimension of the weight matrix is determined as 2 and which is the number of independent variables and 1. I am aware that it is the most basic possible weight function which is why my next model will focus on that.
 
-2- Building the model Built a propagate function that gives an output of gradients and costs. Adjust the weights with an optimized function for a given learning rate.
+2- Building the model 
+Built a propagate function that gives an output of gradients and costs. Adjust the weights with an optimized function for a given learning rate.
 Results
 
 ### Results 
